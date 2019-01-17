@@ -1,5 +1,6 @@
 # Duran-Duran-Returns
-Predicting the real transaction price of apartments!
+
+## Predicting the real transaction price of apartments!
 
 
 1. 17 기준 Dataset 
@@ -13,6 +14,8 @@ Predicting the real transaction price of apartments!
     이렇게 데이터셋 정리해서 한 분 올려주세요! 
     
 ------------------------------------------------------------
-(1. 17) 첫 Submit(예정)
-(1. 18 ~ ) submit 후 추가 변수 정리 및 추가(subway, school 변수 추가 준비 중) 
+### 일정 
+    (1. 17) 첫 Submit(예정)
+
+    (1. 18 ~ ) submit 후 추가 변수 정리 및 추가(subway, school 변수 추가 준비 중) 
 
