@@ -21,3 +21,5 @@
 
     (1. 18 ~ ) submit 후 추가 변수 정리 및 추가(subway, school 변수 추가 준비 중) 
 
+### 공용드라이브
+    https://drive.google.com/drive/folders/1-3uYx_bnj-cJWXtkGuWb58EsOuntbtEz?usp=sharing
