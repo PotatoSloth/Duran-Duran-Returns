@@ -23,3 +23,5 @@
 
 ### 공용드라이브
     https://drive.google.com/drive/folders/1-3uYx_bnj-cJWXtkGuWb58EsOuntbtEz?usp=sharing
+
+### XGBoost Parameters and Tip ! -> Read 'XGBoost.md'! 
