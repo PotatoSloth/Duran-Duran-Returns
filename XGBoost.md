@@ -1,5 +1,7 @@
 ## XGBoost Info
 
+### BEFORE SETTINGS, 파라미터 튜닝도 중요하지만 피처 엔지니어링에 더 집중하는 것이 좋은 결과를 가져온다. 
+
 ### Control Overfitting (과대적합 조정)
 
 > 1. 모델 복잡도 개선 -> max_depth, min_child_weight_gamma 조정 
@@ -63,7 +65,9 @@
 
  > eta [default=0.3] => learning_rate
 
-   - GBM의 학습 속도와 유사.
+   - 딥러닝의 learning rate와 같은 개념. 값이 너무 높으면 학습이 잘 안되고, 
+   
+   - 값이 너무 낮으면 학습이 느릴 수 있다.
 
    - 각 단계에서 가중치를 줄임으로써 모델을 더 강건하게 만든다.
 
@@ -79,7 +83,7 @@
 
  > max_depth [default=6] (Should be tuned using CV)
 
-   - 트리의 최대 깊이.
+   - 트리의 최대 깊이. 값이 높을 수록 더 복잡한 트리모델을 생성하고, 지나칠 경우 과적합의 원인이 된다. 
 
    - 일반적으로 3-10
 
@@ -105,9 +109,17 @@
 
  > colsample_bytree [default=1]
 
-   - 각 트리마다의 feature 샘플링 비율.
+   - 트리를 생성할 때 훈련 데이터에서 변수를 샘플링해주는 비율.
+   
+   - 모든 트리는 전체 변수의 일부만을 학습하여 서로의 약점을 보완해준다. 
 
-   - 일반적으로 0.5-1
+   - 일반적으로 0.5-0.9
+   
+ > colsample_bylevel 
+ 
+   - 트리의 레벨 별로 훈련 데이터의 변수를 샘플링해주는 비율.
+   
+   - 일반적으로 0.6 - 0.9 값 사용. 
 
  > lambda [default=1] => reg_lambda
 
@@ -120,6 +132,8 @@
  > scale_pos_weight [default=1]
 
    - 불균형한 경우 더 빠른 수렴(convergence)에 도움되므로 0보다 큰 값을 쓸것.
+   
+ 
 
 
 
