@@ -173,6 +173,7 @@
 
      
 
-> > 출처 : http://okminseok.blogspot.com/2017/09/ml-xgboost.html
-> >
+> > 출처1 : http://okminseok.blogspot.com/2017/09/ml-xgboost.html
+> > 출처2 : https://jungsooyun.github.io/misc/2018/02/19/XGBoost.html(참조)
+)> >
 > > 참고 영상: https://www.youtube.com/watch?v=Dhwmd_IyW3g(14:02~)
